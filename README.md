@@ -64,6 +64,9 @@ After the creation of this light switch, which was a proof of concept of this sy
 ### Lessons Learned:
 I overcomplicated a lot of this project at first, I wanted to use a complex stepper motor driver with speed control to trigger light switches. It took me a while to step back and really think about the goals of that mechanism and realize that a simple solution would just be a DC motor with a position sensor. This mentality of KISS (Keep It Simple Silly) is something that I found valuable to apply throughout this project and ultimately helped me finish despite some very unlucky circumstances.
 ### Potential Competitions:
+
 1.) https://www.mitinclusiveinnovation.com/the-challenge/
+
 2.) https://www.sourceamerica.org/design-challenge/home
+
 3.) https://competition.adesignaward.com/competitions/differentlyabled.html
