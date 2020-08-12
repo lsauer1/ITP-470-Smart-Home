@@ -2,6 +2,14 @@
 ## Description:
 This is a smart home project for a USC ITP 470 course. This project was focused on the creation of simple Arduino based smart home devices. It includes a website for remote control of devices and sharing of households through google accounts, a remote-controlled light switch add-on, and methods for integrating commands with Alexa. To create these components knowledge on SQL databases, Arduinos, electrical circuits, DC motor control, Alexa skills, and website design was required.
 
+## Light Switch Demonstration:
+
+<p align="center">
+<image alt="Light Switch Demo" src="photos/demo.mov">
+ <br></br>
+ <i>Working light switch controlled by alexa demo.</i>
+ </p>
+ 
 ## How to Build Your Own Light Switch:
 ### Materials Needed:
 #### 1.) Google Account
