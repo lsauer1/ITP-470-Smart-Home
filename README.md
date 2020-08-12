@@ -19,7 +19,7 @@ To begin one of every file must be printed (no supports are necessary). After th
 #### 2.) Wiring and Electronics:
 There are three components: the Arduino, the H-bridge based motor driver, and the DC motor. The motor driver must have wire leads soldered to its connectors and then have those cables run into the A motor ports on the motor driver.
 <p align="center">
-<image alt="Image of Motor A Receptacles" src="photos/motorPin.jpg" width=30% >
+<image alt="Image of Motor A Receptacles" src="photos/motorPin.jpg" width=30%>
 <br></br>
  <i>Motor A receptacles on the motor driver</i>
  </p>
