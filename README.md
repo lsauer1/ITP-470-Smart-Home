@@ -5,7 +5,9 @@ This is a smart home project for a USC ITP 470 course. This project was focused 
 ## Light Switch Demonstration:
 
 <p align="center">
-<image alt="Light Switch Demo" src="photos/demo.mov">
+ <video width="50%" controls autoplay>
+    <source src="photos/demo.mov" type="video/mp4">
+</video>
  <br></br>
  <i>Working light switch controlled by alexa demo.</i>
  </p>
