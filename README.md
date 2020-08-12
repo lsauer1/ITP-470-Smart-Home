@@ -21,3 +21,6 @@ Navigate to the website where these devices are controlled (LINK), create an acc
 #### 4.) Arduino Code:
 In this repository there is a arduino sketch that only requires minor modification to make work for any wifi network. In the config file of this sketch, it will ask for a wifi name, password, and feed name (the one entered into the website). After filling out these missing variables, download the code to your arduino and boot it up!
 ### Alexa Control:
+As mentioned before there are two methods of alexa connectivity that can be used. The recommended method is to use IFTTT to setup a skill that triggers a Adafruit IO event based on an Alexa trigger. However, for more developer access, the code used to connect to Alexa through the developer console is also included.
+#### 1.) IFTTT (simple)
+To begin create an account on [IFTTT](www.IFTTT.com)
