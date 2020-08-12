@@ -1,6 +1,8 @@
 # ITP 470: Smart Home
-## How to Build Your Own Light Switch:
+## Description:
+This is a smart home project for a USC ITP 470 course. This project was focused on the creation of simple Arduino based smart home devices. It includes a website for remote control of devices and sharing of households through google accounts, a remote-controlled light switch add-on, and methods for integrating commands with Alexa. To create these components knowledge on SQL databases, Arduinos, electrical circuits, DC motor control, Alexa skills, and website design was required.
 
+## How to Build Your Own Light Switch:
 ### Materials Needed:
 #### 1.) Google Account
 The website to connect and control the devices requires a google login to create an account.
@@ -26,6 +28,7 @@ As mentioned before there are two methods of Alexa connectivity that can be used
 To begin create an account on [IFTTT](https://www.IFTTT.com) and naviagte to the create a skill page. On this page you can input a number of modules in an **if this** than **that** format. To begin set the **if** trigger to be alexa focused, and set a trigger phrase that you want for this device (e.x. switch one on). Then naviagte to the **then** option and search for the Adafruit Io plug in. After selecting this you will want to select the appropriate feed name and then set the message. TO turn a switch on it should contain a message containing **ON** and to turn it off it should send a message conatining **OFF**.
 #### 2.) Alexa Developer Console (challenging)
 This method is extremely complicated and should only really be attempted for developer purposes and/or if you have previous experience in the Alexa skills framework. This method allows for direct control of HTTP requests to the Adafruit IO client to update devices. This can be accomplished by generating a HelloWorld skill example in the Alexa Developer console. From there the main code will be swapped for the text file included in the Alexa section of the repository. Then the invocation name should be changed to something that mirrors the concept of the program (e.x. smart home). After that, the intents (found in the build tab) can be altered to be whatever the user wants to trigger the device activation. Finally a slot should be created called value for setting the brightness of the light is entered.
+
 ## Looking to the Future:
 ### Reflection:
 This device was simple in comparison to many of the devices that this system could be expanded to include. However, the hard backend portions of this system will easily transfer to other devices. By utilizing my own website to control them and using HTTP requests to integrate with Alexa, methods were created for interactions with nearly any device. The skills that I learned in the development of this device will enable me to expand this project in the future!
