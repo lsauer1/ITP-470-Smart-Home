@@ -36,6 +36,7 @@ Finally, pin A-1A and pin A-1B will be connected to pin GPIO4 and GPIO16 on the 
   <i>Motor A control pins on the motor driver</i>
  </p>
 This completes the wiring harness for the light switch controller.
+
 #### 3.) Website Setup:
 Navigate to the website where these devices are controlled [LINK](https://itp-smart-home.herokuapp.com/index.php), create an account if necessary then access the households tab. If no households exist, one must be created for this device to live in. After selecting a household you will be prompted to enter a device or feed name. Whatever you choose for this will be important to write the value down for later. The device is now created and setup for control through the website.
 #### 4.) Arduino Code:
