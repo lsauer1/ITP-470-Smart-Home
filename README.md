@@ -20,19 +20,19 @@ To begin one of every file must be printed (no supports are necessary). After th
 There are three components: the Arduino, the H-bridge based motor driver, and the DC motor. The motor driver must have wire leads soldered to its connectors and then have those cables run into the A motor ports on the motor driver.
 <p align="center">
 <image alt="Image of Motor A Receptacles" src="photos/motorPin.jpg" width=30% >
-<br>
+<br></br>
  <i>Motor A receptacles on the motor driver</i>
  </p>
 If down the line the device is driving the wrong way, it may be necessary to swap these two leads. Next both the Arduino and motor driver will need to share a common ground, this can be accomplished by creating a power supply off of a USB cable and connecting its ground inputs to both the driver and the Arduino. Next its positive 5 volt lead can be connected to the 5V pin on the Arduino and the VCC pin on the motor driver.
 <p align="center">
 <image alt="Image of VCC and GND Pins" src="photos/vccPin.jpg" width=30%>
- <br>
+ <br></br>
 <i>VCC and GND pins on the motor driver</i>
  </p>
 Finally, pin A-1A and pin A-1B will be connected to pin GPIO4 and GPIO16 on the Arduino respectively.
 <p align="center">
  <image alt="Image of Motor A Control Pins" width=30% src="photos/controlPin.jpg">
-  <br>
+  <br></br>
   <i>Motor A control pins on the motor driver</i>
  </p>
 This completes the wiring harness for the light switch controller.
