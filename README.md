@@ -63,3 +63,7 @@ This device was simple in comparison to many of the devices that this system cou
 After the creation of this light switch, which was a proof of concept of this system, I hope to expand more into the accessibility market. These days it seems that many seniors are adopting smart home systems to help them in their daily lives. My next device would capitalize on this by creating a simple Raspberry Pi based system capable of reading oven and microwave displays and reporting the message through Alexa. Further devices could include tags that trigger if you are leaving something behind in your house, or even an Alexa integrated pill dispenser with automatic reminders.
 ### Lessons Learned:
 I overcomplicated a lot of this project at first, I wanted to use a complex stepper motor driver with speed control to trigger light switches. It took me a while to step back and really think about the goals of that mechanism and realize that a simple solution would just be a DC motor with a position sensor. This mentality of KISS (Keep It Simple Silly) is something that I found valuable to apply throughout this project and ultimately helped me finish despite some very unlucky circumstances.
+### Potential Competitions:
+1.) https://www.mitinclusiveinnovation.com/the-challenge/
+2.) https://www.sourceamerica.org/design-challenge/home
+3.) https://competition.adesignaward.com/competitions/differentlyabled.html
